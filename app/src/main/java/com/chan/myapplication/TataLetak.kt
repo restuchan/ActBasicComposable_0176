@@ -24,7 +24,6 @@ fun TataletakColumn(modifier: Modifier) {
     }
 }
 
-
 @Composable
 fun TataLetakRow(modifier: Modifier){
     Row(modifier = modifier.fillMaxWidth(),
@@ -48,5 +47,12 @@ fun TataletakBox(modifier: Modifier) {
         Text(text = "Row 1")
         Text(text = "Box 2")
         Text(text = "Column 2")
+    }
+}
+
+@Composable
+fun TataletakColumnRow(modifier: Modifier) {
+    Column() {
+
     }
 }
