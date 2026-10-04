@@ -12,6 +12,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.blur
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.modifier.modifierLocalOf
@@ -61,6 +62,15 @@ fun LoginScreen(
                 painter = painterResource(id = R.drawable.logo_umy),
                 contentDescription = null,
                 modifier = Modifier.size(110.dp)
+            )
+
+            Spacer(modifier = Modifier.height(60.dp))
+            //teks nama nim
+            Text(
+                text = "Nama",
+                fontSize = 14.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.Red
             )
         }
     }
