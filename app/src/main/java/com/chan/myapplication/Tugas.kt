@@ -97,7 +97,14 @@ fun LoginScreen(
                     .border(width = 3.dp, color = Color.White, Shape = CircleShape)
                     .background(Color(0xFFE8E8F4)),
                 contentAlignment = Alignment.Center
-            )
+            ){
+                Image(
+                    painter = painterResource(id = R.drawable.foto_mekah),
+                    contentDescription = null,
+                    contentScale = ContentScale.Fit,
+                    modifier = Modifier.fillMaxSize()
+                )
+            }
         }
     }
 }
