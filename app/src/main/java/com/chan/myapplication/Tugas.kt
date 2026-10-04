@@ -78,6 +78,12 @@ fun LoginScreen(
                 fontWeight = FontWeight.Bold,
                 color = Color.Blue
             )
+            Text(
+                text = "20240140176",
+                fontSize = 20.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.Black
+            )
         }
     }
 }
