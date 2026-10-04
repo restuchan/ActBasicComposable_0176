@@ -94,7 +94,7 @@ fun LoginScreen(
                 modifier = Modifier
                     .size(230.dp)
                     .clip(CircleShape)
-                    .border(width = 3.dp, color = Color.White, Shape = CircleShape)
+                    .border(width = 3.dp, color = Color.White, shape = CircleShape)
                     .background(Color(0xFFE8E8F4)),
                 contentAlignment = Alignment.Center
             ){
