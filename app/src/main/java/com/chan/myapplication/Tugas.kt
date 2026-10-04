@@ -3,8 +3,11 @@ package com.chan.myapplication
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
@@ -49,6 +52,15 @@ fun LoginScreen(
                 text = "Ini adalah halaman login",
                 fontSize = 14.sp,
                 color = Color.White
+            )
+
+            Spacer(modifier = Modifier.height(50.dp))
+
+            //Logonya
+            Image(
+                painter = painterResource(id = R.drawable.logo_umy),
+                contentDescription = null,
+                modifier = Modifier.size(110.dp)
             )
         }
     }
